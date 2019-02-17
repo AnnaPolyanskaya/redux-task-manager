@@ -1,0 +1,57 @@
+body{
+  margin: 0 !important;
+}
+.app{
+  background: #8A2387;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 50px;
+  min-height: 100vh;
+}
+
+.main-form{
+  margin: 20px auto !important;
+  max-width: 500px;
+  border: 1pz solid #dedede;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 5px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
+.step-form__edit{
+  width: 100% !important;
+  margin: 5px auto !important;
+}
+.add-form{
+  width: 400px;
+}
+.btn-add, .hidden-form button{
+  position: relative;
+  top: 20px;
+}
+.task-item{
+  background: rgba(255, 255, 255, 0.9) !important;
+}
+.hidden-form{
+  padding: 20px;
+  margin: auto;
+}
+.task-container{
+  position: relative;
+}
+
+
+.filter-btn__container{
+  margin: 20px auto;
+}
+.filter-btn__container h5{
+  margin: 10px auto;
+  color: #fff;
+}
+.filter-btn{
+  margin: 0 10px !important;
+}
+.filter-btn span{
+  margin-left: 10px;
+}
